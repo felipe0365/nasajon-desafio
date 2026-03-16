@@ -3,13 +3,11 @@
 Solução para consumir, higienizar e enriquecer os dados locais do `input.csv` e envia-los por HTTP post à uma API analítica. Para entender a arquitetura implementada (regras de validação e desempate logico), por favor leia o arquivo secundário `NOTAS_EXPLICATIVAS.md` incluso na pasta raiz.
 
 ## Pré-requisitos
-Para o correto funcionamento do script base `solution.py`, você precisará puramente de uma versão do **Python (3.8+)** já embutida junto ao Pip. Não requer Docker, bancos ou infraestrutura parrudas.
-
-*Nota: Um ambiente virtual como (venv) ativado é encorajado antes de iniciar no Windows local.*
+Para o correto funcionamento do script base `solution.py`, você precisará de uma versão do **Python (3.8+)**
 
 ## Getting Started / Instalando
 
-1. Clonagem (se ainda não baixado)
+1. Clonagem 
 ```bash
 git clone https://github.com/felipe0365/nasajon-desafio.git
 cd nasajon-desafio
